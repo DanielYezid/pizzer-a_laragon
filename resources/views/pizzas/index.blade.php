@@ -26,6 +26,8 @@
                     @csrf
                     @method('DELETE')
                     <div id="buttons">
+                        <a id="edit" href="{{ route('pizzas.edit', $pizza->id) }}"><button type="button">EDIT</button></a>
+                        
                         <button type="submit">DELETE</button>
                     </div>
                 </form>

@@ -55,6 +55,7 @@ button {
     color: #000000;
     font-size: 16px;
     transition: background-color 0.3s ease;
+    margin: 2%;
 }
 
 button:hover {
@@ -73,10 +74,12 @@ footer {
 
 a{
     color: white;
+    margin-top: 1.75%;
 }
 
 .content{
     display: flex;
     flex-wrap: wrap;
 }
+
 
